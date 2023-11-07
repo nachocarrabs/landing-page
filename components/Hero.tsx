@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image'
-import { CustomBotton } from '.'
+import { CustomButton } from '.'
 
 const Hero = () => {
 
@@ -19,7 +19,7 @@ return (
 hay un Volkswagen para vos. Seguimos avanzando juntos.
             </p>
 
-            <CustomBotton 
+            <CustomButton 
             title= "Explorar Planes"
             containerStyles="bg-primary-blue text-white rounded-full mt-10"
             handleClick={handleScroll}
@@ -28,7 +28,12 @@ hay un Volkswagen para vos. Seguimos avanzando juntos.
 
         <div className='hero__image-container'>
             <div className='hero__image'>
-                <Image src="" />
+                <Image src="/home.png" alt='hero'
+                fill className='object-contain' />
+            </div>
+
+            <div className='hero__image-overlay'>
+
             </div>
 
         </div>

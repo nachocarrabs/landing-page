@@ -1,7 +1,11 @@
 import Hero from './Hero'
-import CustomBotton from './CustomBotton'
+import CustomButton from './CustomButton'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 export {
     Hero,
-    CustomBotton
+    CustomButton,
+    Footer,
+    Navbar
 }
